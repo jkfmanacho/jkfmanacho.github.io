@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/3482e00999.js" crossorigin="anonymous"></script>
+    <style>
+        main {
+            width: 90%;
+            max-width: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e2e2e2;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+        }
+        .left-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .image-container {
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .image-container img {
+            width: auto;
+            height: 350px;
+            display: block;
+            border-radius: 20px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+        }
+        .buttons {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            padding: 10px;
+        }
+        .button {
+            margin: 5px 0;
+        }
+        .button button {
+            width: 100%;
+            padding: 10px 15px;
+            border: 2px solid #E76571;
+            border-radius: 25px;
+            /* background-color: white; */
+            color: #E76571;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button button:hover {
+            background-color: #E76571;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- MANACHO, JANNAH KATE F. -->
+    <!-- CIP 1101-ITAD -->
+    <nav>
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house fa-sm" style="color: #5d3130;"></i> HOME</a></li>
+          <li><a href="biography.html"><i class="fa-solid fa-user fa-sm" style="color: #5d3130;"></i> BIOGRAPHY</a></li>
+          <li><a href="skills.html"><i class="fa-solid fa-heart fa-sm" style="color: #5d3130;"></i> SKILLS</a></li>
+          <li><a href="resume.html"><i class="fa-solid fa-file fa-sm" style="color: #5d3130;"></i> RESUME</a></li>
+          <li><a href="media.html"><i class="fa-solid fa-photo-film fa-sm" style="color: #5d3130;"></i> MEDIA</a></li>
+          <li><a href="places.html"><i class="fa-solid fa-map-location-dot fa-sm" style="color: #5d3130;"></i> DREAM PLACES</a></li>
+          <li><a href="bucketlist.html"><i class="fa-solid fa-list-check fa-sm" style="color: #5d3130;"></i> BUCKET LIST</a></li>
+          <li><a href="mailto:jkfmanacho@gmail.com"><i class="fa-solid fa-envelope fa-sm" style="color: #5d3130;"></i> CONTACT ME</a></li>
+        </ul>
+      </nav>
+    <div align="center" style="margin-bottom: -15px;">
+        <hr style="border: none; height: 5px; background-color: #4874DF; width: 90%; margin: 2px auto;">
+        <h1>Where To Go?</h1>
+        <hr style="border: none; height: 5px; background-color: #4874DF; width: 90%; margin: 2px auto;">
+    </div>
+    <main>
+        <section class="left-image">
+            <div class="image-container">
+                <img src="../IMAGES/pompompurin.jpg" alt="Pompompurin" title="Pompompurin">
+            </div>
+        </section>
+        <section class="buttons">
+            <div class="button">
+                <a href="music.html"><button>Jannah the Musical Botanist</button></a>
+            </div>
+            <div class="button">
+                <a href="films.html"><button>My Film Foliage</button></a>
+            </div>
+            <div class="button">
+                <a href="shows.html"><button>Episode Evergarden</button></a>
+            </div>
+            <div class="button">
+                <a href="gallery.html"><button>The Uncurated Collection</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
